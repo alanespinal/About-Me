@@ -1,54 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Karla&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <h1>Alan Espinal</h1>
-    <nav>
-      <ul>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Karla&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body id="hob">
+	<script src="script.js">
+
+	</script>
+	<nav>
+		<ul>
+			<li><img src="logo.png" id="logo" class="topnav"></li>
         <li><a href="index.html" class="topnav">About Me</a></li>
-        <li><a href="skills.html" class="topnav">Skills</a></li>
         <li><a href="experiences.html" class="topnav">Experiences</a>
+        <li><a href="skills.html" class="topnav">Skills</a></li>
         <li><a href="hobbies.html" class="topnav">Hobbies</a></li>
       </ul>
     </nav>
-  <script src="script.js"></script>
-  <strong><header>My Hobbies</header></strong>
+    <div id="hobbies">
+        <strong><header id="hobby">My Hobbies</header></strong>
       <ul>
-        <li>Click Images for more info</li>
          <li class="container">
            <figure class="figure">
-              <img class="figure-img img-fluid rounded" id="Atletico" src="https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg" alt="Atletico" onclick="caption5()">
-              <figcaption class="figure-caption" id="Atleti"></figcaption>
+              <img id="Atletico" src="https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg" alt="Atletico" onclick="caption5()">
+              <figcaption class="figure-caption" id="Atleti">My favorite sport is football. I support Spanish football club Atletico de Madrid, and my preferred position is Right-back.</figcaption>
             </figure>
           </li>
         <li class="container">
           <figure class="figure">
-            <img class="figure-img img-fluid rounded" id="Minecraft" src="https://images-na.ssl-images-amazon.com/images/I/418cEZfh8-L.jpg" alt="Minecraft" onclick="caption6()">
-            <figcaption class="figure-caption" id="craft"></figcaption>
+            <img id="Minecraft" src="https://images-na.ssl-images-amazon.com/images/I/418cEZfh8-L.jpg" alt="Minecraft" onclick="caption6()">
+            <figcaption class="figure-caption" id="craft">One of my favorite videogames to play is Minecraft, and I enjoy speedrunning it. My personal best time is (unofficially) top 100 in the world.</figcaption>
           </figure>
         </li>
         <li>
           <figure class="figure">
-            <img class="figure-img img-fluid rounded"id="Chess"src="https://i.redd.it/ih0f976z4rt31.png" alt="Chess" onclick="caption7()">
-            <figcaption class="figure-caption" id="chess"></figcaption>
+            <img id="Chess"src="https://i.redd.it/ih0f976z4rt31.png" alt="Chess" onclick="caption7()">
+            <figcaption class="figure-caption" id="chess">I enjoy the game of chess, I have been playing it for about a year and a half now. I also enjoy watching chess content creators such as GothamChess and Daniel Naroditsky.</figcaption>
           </figure>
         </li>
         <li>
           <figure class="figure">
-            <img class="figure-img img-fluid rounded" id="Starwars" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Star_wars2.svg" alt="Star Wars" onclick="caption8()">
-            <figcaption class="figure-caption" id="Star"></figcaption>
+            <img id="Starwars" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Star_wars2.svg" alt="Star Wars" onclick="caption8()">
+            <figcaption class="figure-caption" id="Star">I am a huge Star Wars fan (not of the sequels). My favorite Star Wars movies are Revenge of the Sith and The Empire Strikes Back.</figcaption>
           </figure>
         </li>
       </ul>
+      </div>
   </body>
+</html>
