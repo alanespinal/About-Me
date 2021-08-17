@@ -24,3 +24,4 @@ function caption8() {
 }
 function caption9() {
   document.getElementById("caption9").innerHTML = "Figma";
+}
